@@ -23,7 +23,8 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*.iwara.tv/videos/*"
+        "http://iwara.tv/videos/*",
+        "http://ecchi.iwara.tv/videos/*"
       ],
       "js": [
         "scripts/contentscript.js"
