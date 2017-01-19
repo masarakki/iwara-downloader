@@ -23,8 +23,7 @@
   "content_scripts": [
     {
       "matches": [
-        "http://iwara.tv/videos/*",
-        "http://ecchi.iwara.tv/videos/*"
+        "http://*.iwara.tv/videos/*"
       ],
       "js": [
         "scripts/contentscript.js"
@@ -34,10 +33,7 @@
     },
     {
       "matches": [
-        "http://iwara.tv/videos",
-        "http://ecchi.iwara.tv/videos",
-        "http://iwara.tv/videos?*",
-        "http://ecchi.iwara.tv/videos?*"
+        "http://*.iwara.tv/*"
       ],
       "css": [
         "styles/contentscript.css"
