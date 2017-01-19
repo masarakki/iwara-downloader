@@ -31,6 +31,19 @@
       ],
       "run_at": "document_end",
       "all_frames": false
+    },
+    {
+      "matches": [
+        "http://iwara.tv/videos",
+        "http://ecchi.iwara.tv/videos",
+        "http://iwara.tv/videos?*",
+        "http://ecchi.iwara.tv/videos?*"
+      ],
+      "css": [
+        "styles/contentscript.css"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
     }
   ]
 }
