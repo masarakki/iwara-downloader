@@ -9,6 +9,6 @@ const filename = path.join('iwara', username, `${title}.mp4`);
 $('#download-button').on('click', (e) => {
   e.stopPropagation();
   e.preventDefault();
-  const url = $('#download-options li:first a').attr('href');
+  const url = 'https:' + $('#download-options li:first a').attr('href');
   chrome.runtime.sendMessage({url, filename});
 });
