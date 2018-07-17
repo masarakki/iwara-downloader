@@ -24,6 +24,7 @@
     {
       "matches": [
         "http://*.iwara.tv/videos/*"
+        "https://*.iwara.tv/videos/*"
       ],
       "js": [
         "scripts/contentscript.js"
