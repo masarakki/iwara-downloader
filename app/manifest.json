@@ -35,7 +35,7 @@
     {
       "matches": [
         "http://*.iwara.tv/*",
-        "https://*.wara.tv/*"
+        "https://*.iwara.tv/*"
       ],
       "css": [
         "styles/contentscript.css"
